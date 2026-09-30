@@ -1,0 +1,8 @@
+[package]
+name = "safebrowse"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+safebrowse-common = { path = "../safebrowse-common" }
+safenet = { path = "../safenet" }

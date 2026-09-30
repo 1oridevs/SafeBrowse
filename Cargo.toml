@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/safebrowse",
+    "crates/safebrowse-common",
+    "crates/safenet",
+]
