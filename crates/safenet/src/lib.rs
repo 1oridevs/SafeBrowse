@@ -1,6 +1,9 @@
+pub mod backend;
+#[cfg(target_os = "linux")]
+pub mod linux;
+
 pub mod observed;
 pub mod verifier;
-
 use safebrowse_common::{NetworkPolicy, SessionState};
 
 use crate::observed::ObservedNetworkState;
